@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: rgb(52, 56, 56);
+}
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(52, 56, 56);
+    color: aliceblue;
+}
+a {
+    text-decoration: none;
+    color: rgb(223, 120, 3);
+}
+footer div, ul {
+    display: flex;
+}
+footer div {
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+footer ul {
+    gap: 40px;
+}
+.conteiner-1 {
+    border: 1px solid rgb(192, 180, 180);
+    padding: 40px 20px;
+    display: flex;
+    background-image: url(./img/fon.jpg);
+    gap: 40px;
+}
+.conteiner-1-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+button {
+    border: 1px solid rgb(196, 53, 196);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    
+}
+.conteiner-1-block-btn {
+    text-align: center;
+}
+img {
+    width: 320px;
+
+}
