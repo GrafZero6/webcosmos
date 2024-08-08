@@ -61,3 +61,8 @@ img {
     width: 320px;
 
 }
+.obshee {
+    display: flex;
+   gap: 20px;
+   flex-flow: column wrap;
+}
