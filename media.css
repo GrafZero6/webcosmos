@@ -34,9 +34,12 @@
         width: 100px;
     }
     .conteiner-1-block-text {
-        font-size: 10px;
+        font-size: 15px;
     }
     button {
         font-size: 10px; 
+    }
+    .name-planets {
+        font-size: 18px;
     }
  }
