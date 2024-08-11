@@ -16,7 +16,7 @@
     .conteiner-1 {
         flex-direction: column;
     }
-    .conteiner-1 p, .conteiner-img {
+    .name-planets, .conteiner-img {
         text-align: center;
     }
     footer ul {
@@ -36,10 +36,10 @@
     .conteiner-1-block-text {
         font-size: 15px;
     }
-    button {
-        font-size: 10px; 
-    }
     .name-planets {
         font-size: 18px;
+    }
+    .conteiner-1-block-text {
+        text-align: justify;
     }
  }
