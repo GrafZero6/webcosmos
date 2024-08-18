@@ -11,15 +11,20 @@
 
 <body>
     <header class="conteiner">
-        <div class="conteiner-header">
+        <div class="conteiner-header" id="menu">
             <a href="./planets.html">Hello</a>
             <ul class="header-ul">
                 <li class="header-li"><a href="">Планеты</a></li>
-                <li><a href="">Солнце</a></li>
-                <li><a href="">Пояс койпера</a></li>
-                <li><a href="">космос</a></li>
+                <li class="header-li"><a href="">Солнце</a></li>
+                <li class="header-li"><a href="">Пояс койпера</a></li>
+                <li class="header-li"><a href="">космос</a></li>
             </ul>
-            <button class="menu">
+            <button class="menu" onclick="burgerOpen()">
+                <div class="b-1"></div>
+                <div class="b-1"></div>
+                <div class="b-1"></div>
+            </button>
+            <button class="menu-exit" onclick="burgerOpen()">
                 <div class="b-1"></div>
                 <div class="b-1"></div>
                 <div class="b-1"></div>
@@ -193,6 +198,7 @@
             </ul>
         </div>
     </footer>
+    <script src="./javascript.js"></script>
 </body>
 
 </html>

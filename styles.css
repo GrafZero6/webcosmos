@@ -85,3 +85,28 @@ img {
 }
 
 /******************************************/
+.menu-exit {
+    display: none;
+}
+.conteiner-header.open .menu-exit {
+    display: block;
+       
+        margin-right: 40px;
+        padding-bottom: 30px;
+        height: 33px;
+        border: none;
+}
+.conteiner-header.open .menu {
+    display: none;
+}
+.conteiner-header.open .header-ul {
+    display: block;
+    padding-top: 50px;
+}
+.conteiner-header.open .header-li  {
+    
+    padding-bottom: 50px;
+}
+.conteiner-header.open .header-li-1 {
+    
+}
