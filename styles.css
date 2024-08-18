@@ -107,6 +107,6 @@ img {
     
     padding-bottom: 50px;
 }
-.conteiner-header.open .header-li-1 {
-    
+.sprite-conteiner {
+    display: none;
 }
