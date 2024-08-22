@@ -110,3 +110,6 @@ img {
 .sprite-conteiner {
     display: none;
 }
+.margin-p {
+    margin-bottom: 30px;
+}
